@@ -1,0 +1,25 @@
+$color:burlywood;
+@mixin border($boxsize) {
+border: 2px solid $boxsize;   
+}
+.test1{
+    background-color: azure;
+    
+}
+.test2{
+    h3{
+        color:red;
+        font-size: 20px;
+        font-style: italic;
+    }
+    span{
+        @extend h3;
+    
+    }
+    @include border(red);
+    background-color:lighten($color, 20%);
+}
+.test3{
+    @include border(black);
+    background-color: darken($color, 20%);
+}

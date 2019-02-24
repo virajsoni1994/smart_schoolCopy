@@ -1,0 +1,59 @@
+{
+  "name": "smart_school",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@coreui/coreui": "^2.0.15",
+    "@coreui/coreui-plugin-chartjs-custom-tooltips": "^1.2.0",
+    "@coreui/icons": "0.3.0",
+    "@coreui/react": "^2.0.9",
+    "ag-grid": "^18.1.2",
+    "ag-grid-community": "^19.1.1",
+    "ag-grid-react": "^19.1.1",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.3",
+    "chart.js": "^2.7.2",
+    "classnames": "^2.2.6",
+    "core-js": "^2.5.7",
+    "flag-icon-css": "^3.2.0",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.9.3",
+    "react": "^16.4.2",
+    "react-app-polyfill": "^0.1.3",
+    "react-chartjs-2": "^2.7.4",
+    "react-dom": "^16.4.2",
+    "react-dom-factories": "^1.0.2",
+    "react-loadable": "^5.5.0",
+    "react-notifications": "^1.4.3",
+    "react-redux": "^5.1.0",
+    "react-router-config": "^4.4.0-beta.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.2",
+    "react-test-renderer": "^16.5.2",
+    "react-validation": "^3.0.7",
+    "reactstrap": "^6.5.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.81.2",
+    "simple-line-icons": "^2.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "http-server": "^0.11.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
